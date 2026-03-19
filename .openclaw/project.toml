@@ -7,18 +7,14 @@ notify_on_ready = true
 required_reviews = ["codex", "claude"]
 
 [drivers.codex]
-model = "gpt-5.3-codex"
 reasoning = "high"
 
 [drivers.claudecode]
-model = "claude-sonnet-4-6"
 reasoning = "high"
 
 [drivers.opencode]
-model = "openai/gpt-5.3-codex"
 reasoning = "high"
 
 [drivers.gemini-cli]
-model = "google/gemini-3-pro-preview"
 reasoning = "high"
 enabled = false

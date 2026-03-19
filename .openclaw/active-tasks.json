@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "frontend-client-1772154737",
+    "tmuxSession": "swarm-agentcal-frontend-client-1772154737",
+    "agent": "codex",
+    "model": "gpt-5.3-codex",
+    "description": "Build the complete React frontend for AgentCal based on PRD.md.",
+    "repo": "/Users/oogie/.openclaw/workspace/agentcal",
+    "worktree": "/Users/oogie/code-worktrees/agentcal/frontend-client-1772154737",
+    "branch": "swarm/frontend-client-1772154737",
+    "startedAt": 1772154740000,
+    "status": "pr_ready",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "notifyOnComplete": true,
+    "pr": 5,
+    "checks": {
+      "prCreated": true,
+      "branchMergeable": true,
+      "ciPassed": false,
+      "codexReviewPassed": false,
+      "claudeReviewPassed": false,
+      "geminiReviewPassed": false,
+      "uiScreenshotPresent": true
+    },
+    "note": ""
+  }
+]
